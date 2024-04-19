@@ -2,7 +2,7 @@
 function Finder({ onChange, value }) {
     return <>
     <label> Buscar:
-        <input placeholder="Buscar..." value={value} onChange={(e) => onChange(e.target.value)} />
+        <input data-testid="input-finder" placeholder="Buscar..." value={value} onChange={(e) => onChange(e.target.value)} />
     </label>
     </>
 }
